@@ -1,0 +1,43 @@
+<!Doctype html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<tr> 
+<!--	<td><img src="..\img\TrailApp2.jpg" alt=\ /><b> Canyons de Portugal</b>  </p> -->
+	<td><img src="https://canyonsportugal.000webhostapp.com/img/TrailAPP2.jpg" alt=\ /><b> Canyons de Portugal</b>  </p>
+</tr>
+<head>
+<!--   Inicio traducao -->
+<div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'pt', includedLanguages: 'en,es,fr,pt', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<!--   Fim traducao -->
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+<title> Login de Utilizador </title>
+</head>
+<h1>Informações de Canyons</h1>
+<h3>Informe o seu utilizador</h3>
+<!-- Botao para SAIR -->
+<form> <button type="submit" formaction="menu.php">Página Anterior</button> </form>
+<br></br>
+<body>
+<form method="POST" action="login.php">
+	<table border="0">
+		<tr>
+			<td>User: </td>
+			<td><input type="text" size="20" name="user" maxlength="45" id="user"></td>
+		</tr>
+		<tr>
+			<td>Password: </td>
+			<td><input type="password" size="20" name="password" maxlength="45" id="password"></td> 
+		</tr>
+	</table>
+	<br>
+	<input type="submit" value="Entrar" id="entrar" name="entrar">
+	<!-- Botao para SAIR -->
+	<form> <button type="submit" formaction="alterar_password.html">Alterar Password</button> </form>
+	</br>
+</form>
+</body>
+</html>
